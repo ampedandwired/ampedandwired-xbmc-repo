@@ -1,4 +1,4 @@
 ampedandwired-xbmc-addons
 =========================
 
-Repository of XBMC plugins maintained by ampedandwired
+Repository of XBMC addons maintained by ampedandwired
