@@ -1,0 +1,5 @@
+[B]Version 1.0.0[/B]
+- Basic authentication and playback
+- List and play your own collection by artist
+- List and play your own collection by album
+- List and play your playlists (including collaborative and subscribed playlists)
