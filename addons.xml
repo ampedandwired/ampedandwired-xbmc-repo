@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version="1.0" encoding="UTF-8"?>
+
 <addons>
 
 <addon id="plugin.audio.rdio" version="1.1.1" name="Rdio" provider-name="Charles Blaxland (https://github.com/ampedandwired/rdio-xbmc)">
@@ -21,8 +22,6 @@
 
 <addon id="repository.ampedandwired" name="Ampedandwired's XBMC Addons" version="1.0.0" provider-name="ampedandwired">
   <extension point="xbmc.addon.repository" name="Ampedandwired's XBMC Addon Repository">
-    <info compressed="false">https://github.com/ampedandwired/ampedandwired-xbmc-repo/raw/master/addons.xml</info>
-    <checksum>https://github.com/ampedandwired/ampedandwired-xbmc-repo/raw/master/addons.xml.md5</checksum>
     <datadir zip="true">https://github.com/ampedandwired/ampedandwired-xbmc-repo/raw/master/repo/</datadir>
   </extension>
   <extension point="xbmc.addon.metadata">
@@ -33,3 +32,4 @@
 </addon>
 
 </addons>
+
