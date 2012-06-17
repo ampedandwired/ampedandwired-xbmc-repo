@@ -35,9 +35,8 @@ cd -
 
 echo "Zipping the addon"
 cd $work_dir
-rm -rf $addon_dir/.git
 rm -f $plugin_zip
-zip -rq ${plugin_zip_name} $addon_dir_name
+zip -rq ${plugin_zip_name} $addon_dir_name -x "${addon_dir_name}/.git"
 cd -
 
 echo "Adding to repo"
