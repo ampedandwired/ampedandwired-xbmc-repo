@@ -49,6 +49,7 @@ cd -
 
 echo "Pushing repo and addon to git master"
 cd $addon_dir
+git push
 git push --tags
 cd -
 cd $script_dir
