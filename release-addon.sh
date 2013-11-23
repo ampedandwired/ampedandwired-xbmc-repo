@@ -24,7 +24,7 @@ git clone $git_url $addon_dir
 cd $addon_dir
 
 echo "Updating version number in addon.xml"
-sed -i "0,/plugin.audio.rdio/s/version=\"[0-9.]*\"/version=\"${version}\"/" addon.xml
+sed -i "s/\"plugin.audio.rdio\" version=\"[0-9.]*\"/\"plugin.audio.rdio\" version=\"${version}\"/" addon.xml
 git commit -a -m "Updated for version ${version}"
 
 echo "Tagging git repo"
